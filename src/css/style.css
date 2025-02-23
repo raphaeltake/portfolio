@@ -60,7 +60,7 @@ main {
   margin: 3rem;
 }
 
-.introducao{
+.introducao {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
@@ -78,26 +78,27 @@ main {
   color: rgb(240, 128, 128);
 }
 
-.mandaUmEmailAi{
+.mandaUmEmailAi {
   margin-bottom: 2rem;
 }
 
-.mandaUmEmailAi, .olhadaCurriculo{
+.mandaUmEmailAi,
+.olhadaCurriculo {
   font-weight: bold;
 }
 
-.toMelhorandoPo{
+.toMelhorandoPo {
   font-size: 0.9rem;
 }
 
-.imagemGrande{
+.imagemGrande {
   position: relative;
   max-width: 40rem;
   justify-self: end;
   display: block;
 }
 
-.imagemAvatar{
+.imagemAvatar {
   position: absolute;
   max-width: 12rem;
   border: 3px solid c;
@@ -106,3 +107,25 @@ main {
   right: 28rem;
 }
 
+.linksIntroducao {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.linksIntroducao img {
+  position: absolute;
+  max-width: 5rem;
+}
+
+.linksIntroducao p {
+  position: absolute;
+}
+
+.linksIntroducao a {
+  color: #eee;
+}
+
+.linksIntroducao a:hover {
+  text-decoration: underline;
+}
