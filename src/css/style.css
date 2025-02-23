@@ -60,15 +60,12 @@ main {
   margin: 3rem;
 }
 
-.introducao {
+.introducao{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
 
-.apresentacao {}
-
 .saudacao {
-  color: lightcoral;
   font-size: 3rem;
   /* margin-bottom: 1rem; */
 }
@@ -78,5 +75,34 @@ main {
 }
 
 .destaque {
-  color: lightcoral;
+  color: rgb(240, 128, 128);
 }
+
+.mandaUmEmailAi{
+  margin-bottom: 2rem;
+}
+
+.mandaUmEmailAi, .olhadaCurriculo{
+  font-weight: bold;
+}
+
+.toMelhorandoPo{
+  font-size: 0.9rem;
+}
+
+.imagemGrande{
+  position: relative;
+  max-width: 40rem;
+  justify-self: end;
+  display: block;
+}
+
+.imagemAvatar{
+  position: absolute;
+  max-width: 12rem;
+  border: 3px solid c;
+  border-radius: 50%;
+  top: 7rem;
+  right: 28rem;
+}
+
