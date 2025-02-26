@@ -30,21 +30,30 @@
   font-size: 0.9rem;
 }
 
-.imagemGrande {
+.imagens {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.imagemGrande {
   max-width: 40rem;
-  justify-self: end;
-  display: block;
+  height: auto;
 }
 
 .imagemAvatar {
   position: absolute;
-  max-width: 12rem;
-  border: 3px solid c;
+  width: 25%;
+  max-width: 10rem;
+  border: 3px solid #fff;
   border-radius: 50%;
-  top: 7rem;
-  right: 28rem;
+  top: 10%;
+  right: 10%;
+  transform: translate(-210%, -30%);
 }
+
 
 .linksIntroducao {
   margin-top: 2rem;
