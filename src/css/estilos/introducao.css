@@ -1,12 +1,12 @@
 .introducao {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   margin: 0 5rem;
 }
 
 .saudacao {
   font-size: 3rem;
-  /* margin-bottom: 1rem; */
+  margin-bottom: 1rem;
 }
 
 .paragrafoApresentacao {
@@ -58,7 +58,7 @@
 .linksIntroducao {
   margin-top: 2rem;
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .linksIntroducao img {
@@ -72,8 +72,45 @@
 
 .linksIntroducao a {
   color: #eee;
+  padding: 1rem;
 }
 
 .linksIntroducao a:hover {
   text-decoration: underline;
 }
+
+@media(width < 1120px){
+  .imagens{
+    max-width: 30rem;
+  }
+}
+
+@media(width <= 1000px){
+  .imagemAvatar{
+    transform: translate(-210%, 50%);
+  }
+
+  .introducao{
+    margin: 2rem;
+  }
+}
+
+@media(width < 830px) and (width > 800){
+  .imagemAvatar{
+    transform: translate(-210%, 140%);
+  }
+
+  
+}
+
+@media(width < 800px){
+  .imagemAvatar{
+    transform: translate(-210%, -20%);
+  }
+
+  .introducao{
+    background: red;
+    /* margin: 1rem; */
+  }
+}
+
