@@ -19,11 +19,11 @@ body {
 main {
   max-width: 87.5rem;
   margin: 3rem auto;
+  padding: 0 5rem;
 }
 
-@media(width < 600px){
+@media(width < 750px){
   main{
-    width: 100%;
-    margin: 0;
+    padding: 0 2rem;
   }
 }
