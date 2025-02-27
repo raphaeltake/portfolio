@@ -133,6 +133,12 @@
   }
 }
 
+@media(width < 750px){
+  .linksIntroducao{
+    justify-content: center;
+  }
+}
+
 @media(width < 350px){
   img{
     display: none;

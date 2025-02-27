@@ -23,7 +23,40 @@ main {
 }
 
 @media(width < 750px){
+  body{
+    font-size: 90%;
+  }
+
+  header h1{
+    font-size: 130%;
+  }
+
+  .saudacao{
+    font-size: 200%;
+  }
+
+  .paragrafoApresentacao{
+    margin: 1rem 0;
+  }
+
+  .mandaUmEmailAi{
+    margin: 1rem 0;
+  }
+
   main{
     padding: 0 2rem;
+    margin: 0;
+  }
+}
+
+@media(width < 600px){
+  body{
+    font-size: 80%;
+  }
+
+
+  main{
+    margin-top: 0;
+    padding: 0 1rem;
   }
 }
