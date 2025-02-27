@@ -112,6 +112,13 @@
   .introducao{
     grid-template-columns: 1fr;
   }
+
+  .imagens::before{
+    width: 7rem;
+    height: 7rem;
+    top: 1rem;
+    left: 1rem;
+  }
   
   .introducao{
     background: red;
