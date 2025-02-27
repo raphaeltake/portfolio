@@ -120,18 +120,16 @@
     left: 1rem;
   }
   
-  .introducao{
-    background: red;
-    /* margin: 1rem; */
-  }
-}
-
-@media(width < 750px){
   .imagens::before{
     width: 7rem;
     height: 7rem;
-    top: 12rem;
-    left: 1rem;
+    top: 1rem;
+    left: 3rem;
+  }
+
+  .introducao{
+    background: red;
+    /* margin: 1rem; */
   }
 }
 
